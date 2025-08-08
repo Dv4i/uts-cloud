@@ -19,7 +19,7 @@ DB_NAME = "kesehatan"
 # ======= KONFIGURASI AWS S3 =======
 S3_BUCKET = "uts-bucket-alon"  # Ganti dengan bucket S3 kamu
 S3_REGION = "ap-southeast-2"    # Region bucket
-AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_ACCESS_KEY= os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 s3_client = boto3.client(
